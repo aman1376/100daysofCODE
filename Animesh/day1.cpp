@@ -40,3 +40,17 @@ public:
         func(a,ind+1,target,v,ans);
     }
 };
+
+//COMBINATION SUM 2
+class Solution {
+public:
+    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        vector<vector<int>>ans;
+        vector<int> v;
+        sort(candidates.bat)break;
+            v.push_back(a[i]);
+            func(a,i+1,target-a[i],v,ans);
+            v.pop_back();
+        }
+    }
+};
